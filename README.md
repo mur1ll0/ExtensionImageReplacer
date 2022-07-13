@@ -10,8 +10,8 @@ Arquivos básicos necessários para a extensão:
  No arquivo manifest ficam as informações da extensão: Nome, ícone, Versão e os scripts que fazem parte.
  Foi criado o arquivo replacer.js onde tem a função que substitui imagens, a função foi encontrada na internet e modificada para se adequar ao teste.
  
- É necessário fazer upload de iamgens em um repositório WEB. Recomendo o [https://freeimage.host].
- Substituir as URLs no replacer.js
+ É necessário fazer upload de imagens em um repositório WEB. Recomendo o [https://freeimage.host].
+ Depois de fazer o upload, substituir as URLs retornadas pelo respositório no replacer.js
  
  # Firefox
  Para instalar uma extensão no Firefox pode ser utilizado o ambiente de testes do Firefox digitando na barra de endereços [about:debugging#/runtime/this-firefox] e clicando no botão **Load Temporary Add-On**.

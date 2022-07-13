@@ -1,0 +1,16 @@
+{
+	"manifest_version": 2,
+	"name": "ImageR",
+	"version": "1.0",
+	"description": "Default web tools for Firefox and Chrome development.",
+	"icons": {
+    	"48": "icon48.png",
+        "128": "icon128.png"
+    },
+	"content_scripts": [
+	    {
+	      "matches": ["*://*/*"],
+	      "js": ["jquery.js", "replacer.js"]
+	    }
+  	]
+}
